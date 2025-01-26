@@ -1,0 +1,406 @@
+/* Reset all elements to use border-box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header styles */
+header {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    background-color: rgba(17, 17, 17, 0.5); /* Semi-transparent dark background */
+    letter-spacing: 1px;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+}
+
+/* Navigation list styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+/* Navigation link styles */
+ul li a {
+    text-decoration: none;
+    padding: 5px;
+    color: #59B2F4;
+    margin-right: 20px;
+}
+
+/* Navigation link hover effect */
+ul li a:hover {
+    color: #f4e04d;
+}
+
+/* Header title styles */
+#head {
+    color: #59B2F4;
+    padding-left: 10%;
+}
+
+/* Home section styles */
+.home {
+    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Home container styles */
+.home-container {
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Home container hover effect */
+.home-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+}
+
+/* Home image styles */
+.home img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #59B2F4;
+    margin-top: 10px;
+}
+
+/* Info container styles */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Info container paragraph styles */
+.info-container p {
+    color: #fff;
+}
+
+/* Info container heading 2 styles */
+.info-container h2 {
+    color: #59B2F4;
+}
+
+/* Info container heading 3 styles */
+.info-container h3 {
+    padding-top: 20px;
+    font-size: 1.2rem;
+    margin: 0;
+    color: #59B2F4;
+}
+
+/* Info container heading 1 styles */
+.info-container h1 {
+    font-size: 2rem;
+    margin: 5px 0;
+    color: #fff;
+}
+
+/* Info heading 4 styles */
+.info h4 {
+    text-align: center;
+}
+
+/* Info container heading 4 styles */
+.info-container h4 {
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+/* Home section background color */
+#home {
+    background-color: #111;
+}
+
+/* Projects section styles */
+.projects {
+    background-color: #111;
+}
+
+/* Projects heading 1 styles */
+.projects h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #59B2F4;
+}
+
+/* Project card styles */
+.project {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Project card hover effect */
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Projects heading 3 hover effect */
+.projects h3:hover {
+    color: #f4e04d;
+}
+
+/* Projects heading 1 styles */
+.projects h1 {
+    color: #59B2F4;
+    padding: 10px;
+}
+
+/* Project layout styles */
+.project-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+/* Project image styles */
+.projects img {
+    width: 80%;
+    height:auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Projects heading 3 styles */
+.projects h3 {
+    color: #59B2F4;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Project paragraph styles */
+.project p {
+    margin-top: 10px;
+}
+
+/* Project heading 3 and paragraph padding */
+.project h3, .project p {
+    padding: 5px;
+}
+
+/* Project image padding */
+.project img {
+    padding: 10px;
+}
+
+/* Form styles */
+form {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+/* Form input container styles */
+.form-input {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Button styles */
+.btn {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Button element styles */
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+/* Button hover effect */
+button.btn:hover {
+    background-color: #cbd2d6;
+}
+
+/* Contact heading styles */
+.contact-head {
+    text-align: center;
+    color: #59B2F4;
+    font-size: 25px;
+}
+
+/* Form label styles */
+form label {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Form input styles */
+form input {
+    border-radius: 6px;
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Form textarea styles */
+.form-input textarea {
+    border-width: 2px;
+    border-radius: 7px;
+    height: 100px;
+    padding: 15px;
+}
+
+/* Contact section border radius */
+.contact {
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    border-top: 1px solid #59B2F4;
+    margin-top: 40px;
+}
+
+/* Footer paragraph styles */
+footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Footer paragraph hover effect */
+footer p:hover {
+    color: #59B2F4;
+    transition: color 0.3s ease;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    border-top: 1px solid #59B2F4;
+    margin-top: 40px;
+}
+
+/* Footer paragraph styles */
+footer p {
+    margin: 10px 0 0; 
+    font-weight: 500;
+}
+
+/* Icon styles */
+footer i {
+    color: #59B2F4; 
+    font-size: 24px; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
+}
+
+/* Icon hover effect */
+footer i:hover {
+    color: #f4e04d; 
+}
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 100px;
+    }
+
+    .home-container {
+        max-width: 90%;
+    }
+
+    .project-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    nav ul {
+        margin-right: 10px;
+    }
+
+    ul li a {
+        margin-right: 10px;
+    }
+
+    .info-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .info-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .info-container h3 {
+        font-size: 1rem;
+    }
+
+    .projects h1 {
+        font-size: 28px;
+    }
+
+    .project h3 {
+        font-size: 1.2rem;
+    }
+
+    .project p {
+        font-size: 0.9rem;
+    }
+}
